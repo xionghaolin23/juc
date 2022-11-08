@@ -2,7 +2,6 @@ package com.xionghl.future;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 
 /**
@@ -40,4 +39,6 @@ class MyCallable implements Callable<String>{
         System.out.println("start juc");
         return "juc";
     }
+
+
 }

@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LTicket {
     public static void main(String[] args) {
 
-      /*  //可重入锁
+        //可重入锁
         final ReentrantLock lock = new ReentrantLock(true);
 
         //传统方式
@@ -24,15 +24,9 @@ public class LTicket {
         //lambada创建
         new Thread(() -> {
 
-        }, "BB").start();*/
+        }, "BB").start();
 
-        List<Integer> list1 = new ArrayList<>();
-        list1.add(1);
-        List<Integer> list2 = new ArrayList<>();
-        list2.add(1);
-        if(list1.contains(list1)){
-            System.out.println(1);
-        }
+
     }
 
 }
